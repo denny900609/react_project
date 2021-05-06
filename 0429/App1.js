@@ -40,11 +40,11 @@ class LoginControl extends React.Component {
     this.state = { isLoggedIn: false };
   }
 
-  handleLoginClick() {
+  handleLoginClick = () => {
     this.setState({ isLoggedIn: true });
   }
 
-  handleLogoutClick() {
+  handleLogoutClick = () => {
     this.setState({ isLoggedIn: false });
   }
 
